@@ -1,20 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>IMC</title>
-    <link rel="stylesheet" href="imc.css">
-    <script src="script.js"></script>
-    scrip
-
-
+    <link rel="stylesheet" href="laura.css">
+    <script src="scripts.js"></script>
+    <title>Calcular IMC</title>
 </head>
+
 <body>
+    <div class="card">
+        
+        <div class="content">
+          <div class="top">
+            <p style="margin-left: 10px;">Calcule seu IMC</p>
+            
+          </div>
+
+          <div class="middle">
+            <div>
+                <p>Insira seus dados</p>
+                <p>Abaixo</p>
+            </div>
+            <img src="https://i.pinimg.com/originals/ab/f3/1e/abf31e3179380f8cf097022b16bdbfcb.png" />
+          </div>
+
+          <div class="bottom">
+
+            <div>
+                <p style="margin-left: -210px;">Nome</p>
+                <input id="nome" type="text" placeholder="Nome" /><br/>
+            </div>
+
+            <div>
+                <p style="margin-left: -210px;">Altura</p>
+                <input id="altura"  type="number" min="0" placeholder="1.60" /><br/>
+            </div>
+            
+            <div>
+                <p style="margin-left: -210px;">Peso</p>
+                <input id="peso" type="number" placeholder="60.6" /><br/>
+            </div>
+
+            <div>
+                <input id="calcular" type="button" value="Calcular" onclick="calcular()">
+            </div>
+
+            <br>
+
+            <div id="message"></div>
+           
+
+            
 
 
+            
+          </div>
+
+        </div>
+      </div>
 </body>
 
-
-
+</html>
