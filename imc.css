@@ -1,1 +1,130 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(90deg,#8257e6,rgba(130,87,230,.25));
+  overflow: hidden;
+  font-family: "Roboto";
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  width: 350px;
+  background: #28203e;
+  box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 92%;
+  width: 88%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+
+.content > .top p {
+  font-weight: bold;
+  font-size: 12px;
+}
+.content > .top .color {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.content > .middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  background: linear-gradient(90deg,#8257e6,rgba(130,87,230,.25));
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.content > .middle img {
+  width: 30%;
+}
+.content > .middle div > p:first-child {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.content > .middle div > p:last-child {
+  margin: 0;
+  font-weight: bold;
+}
+input[type='text'] {
+    width: 250px;
+    height: 35px;
+    margin: -15px 2px; 
+    border: none;
+    border-radius: 3px;
+    padding: 0 0 0 15px;
+    font-size: 14px;
+    color: black;
+    background-color: whitesmoke ;
+    margin-left: 15px;
+    
+  }
+  
+  input[type='number'] {
+    width: 250px;
+    height: 35px;
+    margin: -15px 2px; 
+    border: none;
+    border-radius: 3px;
+    padding: 0 0 0 15px;
+    font-size: 14px;
+    color: black;
+    background-color: whitesmoke ;
+    margin-left: 15px;
+    
+  }
+  input[type="button"] {
+    width: 265px;
+    margin: -19px 2px; 
+    padding: 50 0 0 15px;
+    margin: 0 auto;
+    display: table;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 19px;
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: #28203e;
+    margin-left: 9px;
+    
+    
+   
+  }
+  
+.content > .bottom {
+
+  justify-content: space-between;
+
+  height: 40%;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.content > .bottom div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content > .bottom div p:first-child {
+  font-weight: bold;
+}
